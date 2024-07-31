@@ -7,6 +7,9 @@ static char help[] = "Solves the phase-field problem using Finete Element Method
 
 #include "mesh_interface/headers/Geometry.h"
 
+#include "FEM/headers/ShapeFunction.h"
+SF_L2* sfL2;
+
 int main (int argc, char **args)
 {
     PetscInitialize(&argc, &args, (char *)0, help); // Starts main program invoking PETSc

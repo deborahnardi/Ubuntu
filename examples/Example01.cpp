@@ -45,3 +45,5 @@ ex01BCs.push_back(ex01->addBoundaryConditions(ex01Lines[1], NEUMANN, {{X, 10.}})
 ex01->generateMesh(T6, DELAUNAY, true, false);
 
 ex01->generateMirFile();
+
+
