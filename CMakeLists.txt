@@ -44,8 +44,10 @@ enable_eigen()
 add_subdirectory(FEM)
 add_subdirectory(FEM/headers)
 add_subdirectory(FEM/headers/Elements)
+add_subdirectory(FEM/headers/Quadrature)
 add_subdirectory(FEM/sources)
 add_subdirectory(FEM/sources/Elements)
+add_subdirectory(FEM/sources/Quadrature)
 add_subdirectory(mesh_interface/headers)
 add_subdirectory(mesh_interface/sources)
 
@@ -53,14 +55,16 @@ add_subdirectory(mesh_interface/sources)
 include_directories(
    "${PROJECT_SOURCE_DIR}/FEM"
    "${PROJECT_SOURCE_DIR}/FEM/headers"
-   "${PROJECT_SOURCE_DIR}/FEM/sources/Elements"
+   "${PROJECT_SOURCE_DIR}/FEM/headers/Elements"
+   "${PROJECT_SOURCE_DIR}/FEM/headers/Quadrature"
 	"${PROJECT_SOURCE_DIR}/FEM/sources"
    "${PROJECT_SOURCE_DIR}/FEM/sources/Elements"
+   "${PROJECT_SOURCE_DIR}/FEM/sources/Quadrature"
 	"${PROJECT_SOURCE_DIR}/mesh_interface/headers"
 	"${PROJECT_SOURCE_DIR}/mesh_interface/sources"
 )
 
-add_library(solid_library ${FEM} ${FEM_src} ${headers} ${elementsheaders} ${elementssrc} ${sources} ${MESH_INT} ${MESH_INT_SRC})
+add_library(solid_library ${FEM} ${FEM_src} ${headers} ${elementsheaders} ${elementssrc} ${quadheaders} ${quadsrc} ${sources} ${MESH_INT} ${MESH_INT_SRC})
 target_link_libraries(solid_library PRIVATE Eigen3::Eigen)
 
 link_directories(${PETSC_DIR}/${PETSC_ARCH}/lib)

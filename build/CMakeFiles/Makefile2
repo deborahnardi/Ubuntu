@@ -68,8 +68,10 @@ all: CMakeFiles/s.dir/all
 all: FEM/all
 all: FEM/headers/all
 all: FEM/headers/Elements/all
+all: FEM/headers/Quadrature/all
 all: FEM/sources/all
 all: FEM/sources/Elements/all
+all: FEM/sources/Quadrature/all
 all: mesh_interface/headers/all
 all: mesh_interface/sources/all
 .PHONY : all
@@ -78,8 +80,10 @@ all: mesh_interface/sources/all
 preinstall: FEM/preinstall
 preinstall: FEM/headers/preinstall
 preinstall: FEM/headers/Elements/preinstall
+preinstall: FEM/headers/Quadrature/preinstall
 preinstall: FEM/sources/preinstall
 preinstall: FEM/sources/Elements/preinstall
+preinstall: FEM/sources/Quadrature/preinstall
 preinstall: mesh_interface/headers/preinstall
 preinstall: mesh_interface/sources/preinstall
 .PHONY : preinstall
@@ -90,8 +94,10 @@ clean: CMakeFiles/s.dir/clean
 clean: FEM/clean
 clean: FEM/headers/clean
 clean: FEM/headers/Elements/clean
+clean: FEM/headers/Quadrature/clean
 clean: FEM/sources/clean
 clean: FEM/sources/Elements/clean
+clean: FEM/sources/Quadrature/clean
 clean: mesh_interface/headers/clean
 clean: mesh_interface/sources/clean
 .PHONY : clean
@@ -142,6 +148,21 @@ FEM/headers/Elements/clean:
 .PHONY : FEM/headers/Elements/clean
 
 #=============================================================================
+# Directory level rules for directory FEM/headers/Quadrature
+
+# Recursive "all" directory target.
+FEM/headers/Quadrature/all:
+.PHONY : FEM/headers/Quadrature/all
+
+# Recursive "preinstall" directory target.
+FEM/headers/Quadrature/preinstall:
+.PHONY : FEM/headers/Quadrature/preinstall
+
+# Recursive "clean" directory target.
+FEM/headers/Quadrature/clean:
+.PHONY : FEM/headers/Quadrature/clean
+
+#=============================================================================
 # Directory level rules for directory FEM/sources
 
 # Recursive "all" directory target.
@@ -170,6 +191,21 @@ FEM/sources/Elements/preinstall:
 # Recursive "clean" directory target.
 FEM/sources/Elements/clean:
 .PHONY : FEM/sources/Elements/clean
+
+#=============================================================================
+# Directory level rules for directory FEM/sources/Quadrature
+
+# Recursive "all" directory target.
+FEM/sources/Quadrature/all:
+.PHONY : FEM/sources/Quadrature/all
+
+# Recursive "preinstall" directory target.
+FEM/sources/Quadrature/preinstall:
+.PHONY : FEM/sources/Quadrature/preinstall
+
+# Recursive "clean" directory target.
+FEM/sources/Quadrature/clean:
+.PHONY : FEM/sources/Quadrature/clean
 
 #=============================================================================
 # Directory level rules for directory mesh_interface/headers

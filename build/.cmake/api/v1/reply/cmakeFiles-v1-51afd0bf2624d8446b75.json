@@ -246,10 +246,16 @@
 			"path" : "FEM/headers/Elements/CMakeLists.txt"
 		},
 		{
+			"path" : "FEM/headers/Quadrature/CMakeLists.txt"
+		},
+		{
 			"path" : "FEM/sources/CMakeLists.txt"
 		},
 		{
 			"path" : "FEM/sources/Elements/CMakeLists.txt"
+		},
+		{
+			"path" : "FEM/sources/Quadrature/CMakeLists.txt"
 		},
 		{
 			"path" : "mesh_interface/headers/CMakeLists.txt"

@@ -14,7 +14,9 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8,
+						9
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -63,6 +65,17 @@
 					"source" : "FEM/headers/Elements"
 				},
 				{
+					"build" : "FEM/headers/Quadrature",
+					"jsonFile" : "directory-FEM.headers.Quadrature-Debug-68e62a637267bf232652.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "FEM/headers/Quadrature"
+				},
+				{
 					"build" : "FEM/sources",
 					"jsonFile" : "directory-FEM.sources-Debug-207fd392a119d380dbb1.json",
 					"minimumCMakeVersion" : 
@@ -83,6 +96,17 @@
 					"parentIndex" : 0,
 					"projectIndex" : 0,
 					"source" : "FEM/sources/Elements"
+				},
+				{
+					"build" : "FEM/sources/Quadrature",
+					"jsonFile" : "directory-FEM.sources.Quadrature-Debug-5460b101f24d3624a687.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "FEM/sources/Quadrature"
 				},
 				{
 					"build" : "mesh_interface/headers",
@@ -120,7 +144,9 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8,
+						9
 					],
 					"name" : "s",
 					"targetIndexes" : 
@@ -135,14 +161,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "s::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-s-Debug-535b9210191bb236dca1.json",
+					"jsonFile" : "target-s-Debug-c0dee1b218c1cbe12c38.json",
 					"name" : "s",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "solid_library::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-solid_library-Debug-c3224f96e8e66480c340.json",
+					"jsonFile" : "target-solid_library-Debug-e659acf312c18c36630a.json",
 					"name" : "solid_library",
 					"projectIndex" : 0
 				}

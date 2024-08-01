@@ -606,3 +606,45 @@ gmake[1]: Leaving directory '/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFi
 
 
 
+Determining if the function METIS_NodeND exists passed with the following output:
+Change Dir: /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a739c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a739c.dir/build.make CMakeFiles/cmTC_a739c.dir/build
+gmake[1]: Entering directory '/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a739c.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=METIS_NodeND -o CMakeFiles/cmTC_a739c.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a739c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a739c.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=METIS_NodeND CMakeFiles/cmTC_a739c.dir/CheckFunctionExists.c.o -o cmTC_a739c  -L/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libmetis.so -lm 
+gmake[1]: Leaving directory '/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function METIS_NodeND exists passed with the following output:
+Change Dir: /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6f2b9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6f2b9.dir/build.make CMakeFiles/cmTC_6f2b9.dir/build
+gmake[1]: Entering directory '/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6f2b9.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=METIS_NodeND -o CMakeFiles/cmTC_6f2b9.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6f2b9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f2b9.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=METIS_NodeND CMakeFiles/cmTC_6f2b9.dir/CheckFunctionExists.c.o -o cmTC_6f2b9  -L/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libmetis.so -lm 
+gmake[1]: Leaving directory '/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function METIS_NodeND exists passed with the following output:
+Change Dir: /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_11e36/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_11e36.dir/build.make CMakeFiles/cmTC_11e36.dir/build
+gmake[1]: Entering directory '/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11e36.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=METIS_NodeND -o CMakeFiles/cmTC_11e36.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_11e36
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11e36.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=METIS_NodeND CMakeFiles/cmTC_11e36.dir/CheckFunctionExists.c.o -o cmTC_11e36  -L/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libmetis.so -lm 
+gmake[1]: Leaving directory '/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles/CMakeTmp'
+
+
+

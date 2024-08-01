@@ -28,7 +28,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 63,
+				"line" : 67,
 				"parent" : 0
 			},
 			{
@@ -52,13 +52,13 @@
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 53,
+				"line" : 55,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 64,
+				"line" : 68,
 				"parent" : 0
 			}
 		]
@@ -143,11 +143,23 @@
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/FEM/sources/Elements"
+					"path" : "/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/FEM/headers/Elements"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/FEM/headers/Quadrature"
 				},
 				{
 					"backtrace" : 5,
 					"path" : "/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/FEM/sources"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/FEM/sources/Elements"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/FEM/sources/Quadrature"
 				},
 				{
 					"backtrace" : 5,
