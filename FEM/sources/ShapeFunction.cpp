@@ -132,7 +132,7 @@ double **SF_L4::getShapeFunctionDerivative(double *&xi)
 
 void SF_L4::getNodalXi (double **&parametricCoords)
 {
-    double **parametricCoords = new double*[numNodes];
+    parametricCoords = new double*[numNodes];
 
     for (int i = 0; i < numNodes; i++)
     {
@@ -188,7 +188,7 @@ double **SF_T3::getShapeFunctionDerivative(double *&xi)
 
 void SF_T3::getNodalXi(double **&parametricCoords)
 {
-    double **parametricCoords = new double *[numNodes];
+    parametricCoords = new double *[numNodes];
 
     for (int i = 0; i < numNodes; i++)
     {
@@ -256,7 +256,7 @@ double **SF_T6::getShapeFunctionDerivative(double *&xi)
 
 void SF_T6::getNodalXi(double **&parametricCoords)
 {
-    double **parametricCoords = new double *[numNodes];
+    parametricCoords = new double *[numNodes];
 
     for (int i = 0; i < numNodes; i++)
     {
@@ -345,7 +345,7 @@ double **SF_T10::getShapeFunctionDerivative(double *&xi)
 
 void SF_T10::getNodalXi(double **&parametricCoords)
 {
-    double **parametricCoords = new double *[numNodes];
+    parametricCoords = new double *[numNodes];
 
     for (int i=0; i < numNodes; i++)
     {

@@ -32,7 +32,6 @@ CMakeFiles/solid_library.dir/mesh_interface/sources/Geometry.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/x86_64-linux-gnu/bits/wchar2.h \
  /usr/include/c++/11/exception /usr/include/c++/11/bits/exception.h \
  /usr/include/c++/11/bits/exception_ptr.h \
  /usr/include/c++/11/bits/exception_defines.h \
@@ -118,10 +117,7 @@ CMakeFiles/solid_library.dir/mesh_interface/sources/Geometry.cpp.o: \
  /usr/include/x86_64-linux-gnu/sys/select.h \
  /usr/include/x86_64-linux-gnu/bits/select.h \
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
- /usr/include/x86_64-linux-gnu/bits/select2.h /usr/include/alloca.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+ /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/c++/11/bits/std_abs.h \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/initializer_list /usr/include/c++/11/bits/stl_heap.h \
@@ -141,10 +137,9 @@ CMakeFiles/solid_library.dir/mesh_interface/sources/Geometry.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /usr/include/x86_64-linux-gnu/bits/stdio.h \
- /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/c++/11/cerrno \
- /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
- /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/c++/11/cerrno /usr/include/errno.h \
+ /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
@@ -178,10 +173,10 @@ CMakeFiles/solid_library.dir/mesh_interface/sources/Geometry.cpp.o: \
  /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/mesh_interface/sources/../headers/Circle.h \
  /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/mesh_interface/sources/../headers/PlaneSurface.h \
  /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/mesh_interface/sources/../headers/BoundaryCondition.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/hdf5.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5public.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5pubconf.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5version.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/hdf5.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5public.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5pubconf.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5version.h \
  /usr/include/c++/11/cinttypes /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -194,65 +189,65 @@ CMakeFiles/solid_library.dir/mesh_interface/sources/Geometry.cpp.o: \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
  /home/deborah/mpich/include/mpi.h /home/deborah/mpich/include/mpio.h \
  /home/deborah/mpich/include/mpi.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5api_adpt.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5Apublic.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5Ipublic.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5Opublic.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5Tpublic.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5ACpublic.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5Cpublic.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5Dpublic.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5Epublic.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5Epubgen.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5ESpublic.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5Fpublic.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5FDpublic.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5Gpublic.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5Lpublic.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5Mpublic.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5VLpublic.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5VLconnector.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5Rpublic.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5MMpublic.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5Ppublic.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5Spublic.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5Zpublic.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5PLpublic.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5ESdevelop.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5FDdevelop.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5Idevelop.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5Ldevelop.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5Tdevelop.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5TSdevelop.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5Zdevelop.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5VLconnector_passthru.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5VLnative.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5FDcore.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5FDdirect.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5FDfamily.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5FDhdfs.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5FDlog.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5FDmirror.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5FDmpi.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5FDmpio.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5FDmulti.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5FDonion.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5FDros3.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5FDsec2.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5FDsplitter.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5FDstdio.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5FDsubfiling.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5FDioc.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/H5VLpassthru.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5api_adpt.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5Apublic.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5Ipublic.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5Opublic.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5Tpublic.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5ACpublic.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5Cpublic.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5Dpublic.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5Epublic.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5Epubgen.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5ESpublic.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5Fpublic.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5FDpublic.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5Gpublic.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5Lpublic.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5Mpublic.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5VLpublic.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5VLconnector.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5Rpublic.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5MMpublic.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5Ppublic.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5Spublic.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5Zpublic.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5PLpublic.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5ESdevelop.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5FDdevelop.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5Idevelop.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5Ldevelop.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5Tdevelop.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5TSdevelop.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5Zdevelop.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5VLconnector_passthru.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5VLnative.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5FDcore.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5FDdirect.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5FDfamily.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5FDhdfs.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5FDlog.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5FDmirror.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5FDmpi.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5FDmpio.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5FDmulti.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5FDonion.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5FDros3.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5FDsec2.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5FDsplitter.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5FDstdio.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5FDsubfiling.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5FDioc.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/H5VLpassthru.h \
  /home/deborah/petsc/include/petscsnes.h \
  /home/deborah/petsc/include/petscksp.h \
  /home/deborah/petsc/include/petscpc.h \
  /home/deborah/petsc/include/petscmat.h \
  /home/deborah/petsc/include/petscvec.h \
  /home/deborah/petsc/include/petscsys.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/petscconf.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/petscconf_poison.h \
- /home/deborah/petsc/arch-linux2-c-opt/include/petscfix.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/petscconf.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/petscconf_poison.h \
+ /home/deborah/petsc/arch-linux2-c-debug/include/petscfix.h \
  /home/deborah/petsc/include/petscmacros.h \
  /home/deborah/petsc/include/petscversion.h /usr/include/c++/11/cstddef \
  /home/deborah/petsc/include/petsc/private/petscadvancedmacros.h \
@@ -290,10 +285,7 @@ CMakeFiles/solid_library.dir/mesh_interface/sources/Geometry.cpp.o: \
  /home/deborah/petsc/include/petsctime.h \
  /home/deborah/petsc/include/petscbt.h \
  /home/deborah/petsc/include/petscstring.h /usr/include/string.h \
- /usr/include/strings.h \
- /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
- /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
- /home/deborah/petsc/include/petsclogtypes.h \
+ /usr/include/strings.h /home/deborah/petsc/include/petsclogtypes.h \
  /home/deborah/petsc/include/petsclogdeprecated.h \
  /usr/include/c++/11/stdlib.h /home/deborah/petsc/include/petscsftypes.h \
  /home/deborah/petsc/include/petscis.h \

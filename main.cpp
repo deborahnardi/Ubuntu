@@ -15,7 +15,8 @@ int main (int argc, char **args)
     PetscInitialize(&argc, &args, (char *)0, help); // Starts main program invoking PETSc
 
     //#include "examples/Example01.cpp"
-    //#include "examples/NumericalIntegration.cpp"
+    #include "examples/NumericalIntegration.cpp"
+
     PetscFinalize(); // Finalize main program
     return 0;
 }

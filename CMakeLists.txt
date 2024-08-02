@@ -64,7 +64,7 @@ include_directories(
 	"${PROJECT_SOURCE_DIR}/mesh_interface/sources"
 )
 
-add_library(solid_library ${FEM} ${FEM_src} ${headers} ${elementsheaders} ${elementssrc} ${quadheaders} ${quadsrc} ${sources} ${MESH_INT} ${MESH_INT_SRC})
+add_library(solid_library ${SOLID} ${SOLID_SRC} ${HEADERS} ${SOURCES} ${ELEMENTSHEADERS} ${ELEMENTSSRC} ${MESH_INT} ${MESH_INT_SRC} ${QUADHEADERS} ${QUADSRC})
 target_link_libraries(solid_library PRIVATE Eigen3::Eigen)
 
 link_directories(${PETSC_DIR}/${PETSC_ARCH}/lib)
