@@ -69,10 +69,66 @@ include CMakeFiles/solid_library.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/solid_library.dir/flags.make
 
+CMakeFiles/solid_library.dir/FEM/sources/Node.cpp.o: CMakeFiles/solid_library.dir/flags.make
+CMakeFiles/solid_library.dir/FEM/sources/Node.cpp.o: ../FEM/sources/Node.cpp
+CMakeFiles/solid_library.dir/FEM/sources/Node.cpp.o: CMakeFiles/solid_library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/solid_library.dir/FEM/sources/Node.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/solid_library.dir/FEM/sources/Node.cpp.o -MF CMakeFiles/solid_library.dir/FEM/sources/Node.cpp.o.d -o CMakeFiles/solid_library.dir/FEM/sources/Node.cpp.o -c /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/FEM/sources/Node.cpp
+
+CMakeFiles/solid_library.dir/FEM/sources/Node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/solid_library.dir/FEM/sources/Node.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/FEM/sources/Node.cpp > CMakeFiles/solid_library.dir/FEM/sources/Node.cpp.i
+
+CMakeFiles/solid_library.dir/FEM/sources/Node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/solid_library.dir/FEM/sources/Node.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/FEM/sources/Node.cpp -o CMakeFiles/solid_library.dir/FEM/sources/Node.cpp.s
+
+CMakeFiles/solid_library.dir/FEM/sources/ShapeFunction.cpp.o: CMakeFiles/solid_library.dir/flags.make
+CMakeFiles/solid_library.dir/FEM/sources/ShapeFunction.cpp.o: ../FEM/sources/ShapeFunction.cpp
+CMakeFiles/solid_library.dir/FEM/sources/ShapeFunction.cpp.o: CMakeFiles/solid_library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/solid_library.dir/FEM/sources/ShapeFunction.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/solid_library.dir/FEM/sources/ShapeFunction.cpp.o -MF CMakeFiles/solid_library.dir/FEM/sources/ShapeFunction.cpp.o.d -o CMakeFiles/solid_library.dir/FEM/sources/ShapeFunction.cpp.o -c /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/FEM/sources/ShapeFunction.cpp
+
+CMakeFiles/solid_library.dir/FEM/sources/ShapeFunction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/solid_library.dir/FEM/sources/ShapeFunction.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/FEM/sources/ShapeFunction.cpp > CMakeFiles/solid_library.dir/FEM/sources/ShapeFunction.cpp.i
+
+CMakeFiles/solid_library.dir/FEM/sources/ShapeFunction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/solid_library.dir/FEM/sources/ShapeFunction.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/FEM/sources/ShapeFunction.cpp -o CMakeFiles/solid_library.dir/FEM/sources/ShapeFunction.cpp.s
+
+CMakeFiles/solid_library.dir/FEM/sources/Elements/Element.cpp.o: CMakeFiles/solid_library.dir/flags.make
+CMakeFiles/solid_library.dir/FEM/sources/Elements/Element.cpp.o: ../FEM/sources/Elements/Element.cpp
+CMakeFiles/solid_library.dir/FEM/sources/Elements/Element.cpp.o: CMakeFiles/solid_library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/solid_library.dir/FEM/sources/Elements/Element.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/solid_library.dir/FEM/sources/Elements/Element.cpp.o -MF CMakeFiles/solid_library.dir/FEM/sources/Elements/Element.cpp.o.d -o CMakeFiles/solid_library.dir/FEM/sources/Elements/Element.cpp.o -c /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/FEM/sources/Elements/Element.cpp
+
+CMakeFiles/solid_library.dir/FEM/sources/Elements/Element.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/solid_library.dir/FEM/sources/Elements/Element.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/FEM/sources/Elements/Element.cpp > CMakeFiles/solid_library.dir/FEM/sources/Elements/Element.cpp.i
+
+CMakeFiles/solid_library.dir/FEM/sources/Elements/Element.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/solid_library.dir/FEM/sources/Elements/Element.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/FEM/sources/Elements/Element.cpp -o CMakeFiles/solid_library.dir/FEM/sources/Elements/Element.cpp.s
+
+CMakeFiles/solid_library.dir/FEM/sources/Elements/Truss.cpp.o: CMakeFiles/solid_library.dir/flags.make
+CMakeFiles/solid_library.dir/FEM/sources/Elements/Truss.cpp.o: ../FEM/sources/Elements/Truss.cpp
+CMakeFiles/solid_library.dir/FEM/sources/Elements/Truss.cpp.o: CMakeFiles/solid_library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/solid_library.dir/FEM/sources/Elements/Truss.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/solid_library.dir/FEM/sources/Elements/Truss.cpp.o -MF CMakeFiles/solid_library.dir/FEM/sources/Elements/Truss.cpp.o.d -o CMakeFiles/solid_library.dir/FEM/sources/Elements/Truss.cpp.o -c /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/FEM/sources/Elements/Truss.cpp
+
+CMakeFiles/solid_library.dir/FEM/sources/Elements/Truss.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/solid_library.dir/FEM/sources/Elements/Truss.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/FEM/sources/Elements/Truss.cpp > CMakeFiles/solid_library.dir/FEM/sources/Elements/Truss.cpp.i
+
+CMakeFiles/solid_library.dir/FEM/sources/Elements/Truss.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/solid_library.dir/FEM/sources/Elements/Truss.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/FEM/sources/Elements/Truss.cpp -o CMakeFiles/solid_library.dir/FEM/sources/Elements/Truss.cpp.s
+
 CMakeFiles/solid_library.dir/mesh_interface/sources/BoundaryConditions.cpp.o: CMakeFiles/solid_library.dir/flags.make
 CMakeFiles/solid_library.dir/mesh_interface/sources/BoundaryConditions.cpp.o: ../mesh_interface/sources/BoundaryConditions.cpp
 CMakeFiles/solid_library.dir/mesh_interface/sources/BoundaryConditions.cpp.o: CMakeFiles/solid_library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/solid_library.dir/mesh_interface/sources/BoundaryConditions.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/solid_library.dir/mesh_interface/sources/BoundaryConditions.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/solid_library.dir/mesh_interface/sources/BoundaryConditions.cpp.o -MF CMakeFiles/solid_library.dir/mesh_interface/sources/BoundaryConditions.cpp.o.d -o CMakeFiles/solid_library.dir/mesh_interface/sources/BoundaryConditions.cpp.o -c /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/mesh_interface/sources/BoundaryConditions.cpp
 
 CMakeFiles/solid_library.dir/mesh_interface/sources/BoundaryConditions.cpp.i: cmake_force
@@ -86,7 +142,7 @@ CMakeFiles/solid_library.dir/mesh_interface/sources/BoundaryConditions.cpp.s: cm
 CMakeFiles/solid_library.dir/mesh_interface/sources/Circle.cpp.o: CMakeFiles/solid_library.dir/flags.make
 CMakeFiles/solid_library.dir/mesh_interface/sources/Circle.cpp.o: ../mesh_interface/sources/Circle.cpp
 CMakeFiles/solid_library.dir/mesh_interface/sources/Circle.cpp.o: CMakeFiles/solid_library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/solid_library.dir/mesh_interface/sources/Circle.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/solid_library.dir/mesh_interface/sources/Circle.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/solid_library.dir/mesh_interface/sources/Circle.cpp.o -MF CMakeFiles/solid_library.dir/mesh_interface/sources/Circle.cpp.o.d -o CMakeFiles/solid_library.dir/mesh_interface/sources/Circle.cpp.o -c /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/mesh_interface/sources/Circle.cpp
 
 CMakeFiles/solid_library.dir/mesh_interface/sources/Circle.cpp.i: cmake_force
@@ -100,7 +156,7 @@ CMakeFiles/solid_library.dir/mesh_interface/sources/Circle.cpp.s: cmake_force
 CMakeFiles/solid_library.dir/mesh_interface/sources/Geometry.cpp.o: CMakeFiles/solid_library.dir/flags.make
 CMakeFiles/solid_library.dir/mesh_interface/sources/Geometry.cpp.o: ../mesh_interface/sources/Geometry.cpp
 CMakeFiles/solid_library.dir/mesh_interface/sources/Geometry.cpp.o: CMakeFiles/solid_library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/solid_library.dir/mesh_interface/sources/Geometry.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/solid_library.dir/mesh_interface/sources/Geometry.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/solid_library.dir/mesh_interface/sources/Geometry.cpp.o -MF CMakeFiles/solid_library.dir/mesh_interface/sources/Geometry.cpp.o.d -o CMakeFiles/solid_library.dir/mesh_interface/sources/Geometry.cpp.o -c /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/mesh_interface/sources/Geometry.cpp
 
 CMakeFiles/solid_library.dir/mesh_interface/sources/Geometry.cpp.i: cmake_force
@@ -114,7 +170,7 @@ CMakeFiles/solid_library.dir/mesh_interface/sources/Geometry.cpp.s: cmake_force
 CMakeFiles/solid_library.dir/mesh_interface/sources/Line.cpp.o: CMakeFiles/solid_library.dir/flags.make
 CMakeFiles/solid_library.dir/mesh_interface/sources/Line.cpp.o: ../mesh_interface/sources/Line.cpp
 CMakeFiles/solid_library.dir/mesh_interface/sources/Line.cpp.o: CMakeFiles/solid_library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/solid_library.dir/mesh_interface/sources/Line.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/solid_library.dir/mesh_interface/sources/Line.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/solid_library.dir/mesh_interface/sources/Line.cpp.o -MF CMakeFiles/solid_library.dir/mesh_interface/sources/Line.cpp.o.d -o CMakeFiles/solid_library.dir/mesh_interface/sources/Line.cpp.o -c /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/mesh_interface/sources/Line.cpp
 
 CMakeFiles/solid_library.dir/mesh_interface/sources/Line.cpp.i: cmake_force
@@ -128,7 +184,7 @@ CMakeFiles/solid_library.dir/mesh_interface/sources/Line.cpp.s: cmake_force
 CMakeFiles/solid_library.dir/mesh_interface/sources/LineLoop.cpp.o: CMakeFiles/solid_library.dir/flags.make
 CMakeFiles/solid_library.dir/mesh_interface/sources/LineLoop.cpp.o: ../mesh_interface/sources/LineLoop.cpp
 CMakeFiles/solid_library.dir/mesh_interface/sources/LineLoop.cpp.o: CMakeFiles/solid_library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/solid_library.dir/mesh_interface/sources/LineLoop.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/solid_library.dir/mesh_interface/sources/LineLoop.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/solid_library.dir/mesh_interface/sources/LineLoop.cpp.o -MF CMakeFiles/solid_library.dir/mesh_interface/sources/LineLoop.cpp.o.d -o CMakeFiles/solid_library.dir/mesh_interface/sources/LineLoop.cpp.o -c /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/mesh_interface/sources/LineLoop.cpp
 
 CMakeFiles/solid_library.dir/mesh_interface/sources/LineLoop.cpp.i: cmake_force
@@ -142,7 +198,7 @@ CMakeFiles/solid_library.dir/mesh_interface/sources/LineLoop.cpp.s: cmake_force
 CMakeFiles/solid_library.dir/mesh_interface/sources/Material.cpp.o: CMakeFiles/solid_library.dir/flags.make
 CMakeFiles/solid_library.dir/mesh_interface/sources/Material.cpp.o: ../mesh_interface/sources/Material.cpp
 CMakeFiles/solid_library.dir/mesh_interface/sources/Material.cpp.o: CMakeFiles/solid_library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/solid_library.dir/mesh_interface/sources/Material.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/solid_library.dir/mesh_interface/sources/Material.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/solid_library.dir/mesh_interface/sources/Material.cpp.o -MF CMakeFiles/solid_library.dir/mesh_interface/sources/Material.cpp.o.d -o CMakeFiles/solid_library.dir/mesh_interface/sources/Material.cpp.o -c /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/mesh_interface/sources/Material.cpp
 
 CMakeFiles/solid_library.dir/mesh_interface/sources/Material.cpp.i: cmake_force
@@ -156,7 +212,7 @@ CMakeFiles/solid_library.dir/mesh_interface/sources/Material.cpp.s: cmake_force
 CMakeFiles/solid_library.dir/mesh_interface/sources/PlaneSurface.cpp.o: CMakeFiles/solid_library.dir/flags.make
 CMakeFiles/solid_library.dir/mesh_interface/sources/PlaneSurface.cpp.o: ../mesh_interface/sources/PlaneSurface.cpp
 CMakeFiles/solid_library.dir/mesh_interface/sources/PlaneSurface.cpp.o: CMakeFiles/solid_library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/solid_library.dir/mesh_interface/sources/PlaneSurface.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/solid_library.dir/mesh_interface/sources/PlaneSurface.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/solid_library.dir/mesh_interface/sources/PlaneSurface.cpp.o -MF CMakeFiles/solid_library.dir/mesh_interface/sources/PlaneSurface.cpp.o.d -o CMakeFiles/solid_library.dir/mesh_interface/sources/PlaneSurface.cpp.o -c /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/mesh_interface/sources/PlaneSurface.cpp
 
 CMakeFiles/solid_library.dir/mesh_interface/sources/PlaneSurface.cpp.i: cmake_force
@@ -170,7 +226,7 @@ CMakeFiles/solid_library.dir/mesh_interface/sources/PlaneSurface.cpp.s: cmake_fo
 CMakeFiles/solid_library.dir/mesh_interface/sources/Point.cpp.o: CMakeFiles/solid_library.dir/flags.make
 CMakeFiles/solid_library.dir/mesh_interface/sources/Point.cpp.o: ../mesh_interface/sources/Point.cpp
 CMakeFiles/solid_library.dir/mesh_interface/sources/Point.cpp.o: CMakeFiles/solid_library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/solid_library.dir/mesh_interface/sources/Point.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/solid_library.dir/mesh_interface/sources/Point.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/solid_library.dir/mesh_interface/sources/Point.cpp.o -MF CMakeFiles/solid_library.dir/mesh_interface/sources/Point.cpp.o.d -o CMakeFiles/solid_library.dir/mesh_interface/sources/Point.cpp.o -c /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/mesh_interface/sources/Point.cpp
 
 CMakeFiles/solid_library.dir/mesh_interface/sources/Point.cpp.i: cmake_force
@@ -184,7 +240,7 @@ CMakeFiles/solid_library.dir/mesh_interface/sources/Point.cpp.s: cmake_force
 CMakeFiles/solid_library.dir/mesh_interface/sources/Surface.cpp.o: CMakeFiles/solid_library.dir/flags.make
 CMakeFiles/solid_library.dir/mesh_interface/sources/Surface.cpp.o: ../mesh_interface/sources/Surface.cpp
 CMakeFiles/solid_library.dir/mesh_interface/sources/Surface.cpp.o: CMakeFiles/solid_library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/solid_library.dir/mesh_interface/sources/Surface.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/solid_library.dir/mesh_interface/sources/Surface.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/solid_library.dir/mesh_interface/sources/Surface.cpp.o -MF CMakeFiles/solid_library.dir/mesh_interface/sources/Surface.cpp.o.d -o CMakeFiles/solid_library.dir/mesh_interface/sources/Surface.cpp.o -c /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/mesh_interface/sources/Surface.cpp
 
 CMakeFiles/solid_library.dir/mesh_interface/sources/Surface.cpp.i: cmake_force
@@ -198,7 +254,7 @@ CMakeFiles/solid_library.dir/mesh_interface/sources/Surface.cpp.s: cmake_force
 CMakeFiles/solid_library.dir/mesh_interface/sources/SurfaceLoop.cpp.o: CMakeFiles/solid_library.dir/flags.make
 CMakeFiles/solid_library.dir/mesh_interface/sources/SurfaceLoop.cpp.o: ../mesh_interface/sources/SurfaceLoop.cpp
 CMakeFiles/solid_library.dir/mesh_interface/sources/SurfaceLoop.cpp.o: CMakeFiles/solid_library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/solid_library.dir/mesh_interface/sources/SurfaceLoop.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/solid_library.dir/mesh_interface/sources/SurfaceLoop.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/solid_library.dir/mesh_interface/sources/SurfaceLoop.cpp.o -MF CMakeFiles/solid_library.dir/mesh_interface/sources/SurfaceLoop.cpp.o.d -o CMakeFiles/solid_library.dir/mesh_interface/sources/SurfaceLoop.cpp.o -c /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/mesh_interface/sources/SurfaceLoop.cpp
 
 CMakeFiles/solid_library.dir/mesh_interface/sources/SurfaceLoop.cpp.i: cmake_force
@@ -212,7 +268,7 @@ CMakeFiles/solid_library.dir/mesh_interface/sources/SurfaceLoop.cpp.s: cmake_for
 CMakeFiles/solid_library.dir/mesh_interface/sources/Volume.cpp.o: CMakeFiles/solid_library.dir/flags.make
 CMakeFiles/solid_library.dir/mesh_interface/sources/Volume.cpp.o: ../mesh_interface/sources/Volume.cpp
 CMakeFiles/solid_library.dir/mesh_interface/sources/Volume.cpp.o: CMakeFiles/solid_library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/solid_library.dir/mesh_interface/sources/Volume.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/solid_library.dir/mesh_interface/sources/Volume.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/solid_library.dir/mesh_interface/sources/Volume.cpp.o -MF CMakeFiles/solid_library.dir/mesh_interface/sources/Volume.cpp.o.d -o CMakeFiles/solid_library.dir/mesh_interface/sources/Volume.cpp.o -c /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/mesh_interface/sources/Volume.cpp
 
 CMakeFiles/solid_library.dir/mesh_interface/sources/Volume.cpp.i: cmake_force
@@ -223,8 +279,68 @@ CMakeFiles/solid_library.dir/mesh_interface/sources/Volume.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/solid_library.dir/mesh_interface/sources/Volume.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/mesh_interface/sources/Volume.cpp -o CMakeFiles/solid_library.dir/mesh_interface/sources/Volume.cpp.s
 
+CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadLine.cpp.o: CMakeFiles/solid_library.dir/flags.make
+CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadLine.cpp.o: ../FEM/sources/Quadrature/QuadLine.cpp
+CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadLine.cpp.o: CMakeFiles/solid_library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadLine.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadLine.cpp.o -MF CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadLine.cpp.o.d -o CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadLine.cpp.o -c /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/FEM/sources/Quadrature/QuadLine.cpp
+
+CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadLine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadLine.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/FEM/sources/Quadrature/QuadLine.cpp > CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadLine.cpp.i
+
+CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadLine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadLine.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/FEM/sources/Quadrature/QuadLine.cpp -o CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadLine.cpp.s
+
+CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadTetrahedron.cpp.o: CMakeFiles/solid_library.dir/flags.make
+CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadTetrahedron.cpp.o: ../FEM/sources/Quadrature/QuadTetrahedron.cpp
+CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadTetrahedron.cpp.o: CMakeFiles/solid_library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadTetrahedron.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadTetrahedron.cpp.o -MF CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadTetrahedron.cpp.o.d -o CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadTetrahedron.cpp.o -c /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/FEM/sources/Quadrature/QuadTetrahedron.cpp
+
+CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadTetrahedron.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadTetrahedron.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/FEM/sources/Quadrature/QuadTetrahedron.cpp > CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadTetrahedron.cpp.i
+
+CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadTetrahedron.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadTetrahedron.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/FEM/sources/Quadrature/QuadTetrahedron.cpp -o CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadTetrahedron.cpp.s
+
+CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadTriangle.cpp.o: CMakeFiles/solid_library.dir/flags.make
+CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadTriangle.cpp.o: ../FEM/sources/Quadrature/QuadTriangle.cpp
+CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadTriangle.cpp.o: CMakeFiles/solid_library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadTriangle.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadTriangle.cpp.o -MF CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadTriangle.cpp.o.d -o CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadTriangle.cpp.o -c /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/FEM/sources/Quadrature/QuadTriangle.cpp
+
+CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadTriangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadTriangle.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/FEM/sources/Quadrature/QuadTriangle.cpp > CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadTriangle.cpp.i
+
+CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadTriangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadTriangle.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/FEM/sources/Quadrature/QuadTriangle.cpp -o CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadTriangle.cpp.s
+
+CMakeFiles/solid_library.dir/FEM/sources/Quadrature/Quadrature.cpp.o: CMakeFiles/solid_library.dir/flags.make
+CMakeFiles/solid_library.dir/FEM/sources/Quadrature/Quadrature.cpp.o: ../FEM/sources/Quadrature/Quadrature.cpp
+CMakeFiles/solid_library.dir/FEM/sources/Quadrature/Quadrature.cpp.o: CMakeFiles/solid_library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/solid_library.dir/FEM/sources/Quadrature/Quadrature.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/solid_library.dir/FEM/sources/Quadrature/Quadrature.cpp.o -MF CMakeFiles/solid_library.dir/FEM/sources/Quadrature/Quadrature.cpp.o.d -o CMakeFiles/solid_library.dir/FEM/sources/Quadrature/Quadrature.cpp.o -c /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/FEM/sources/Quadrature/Quadrature.cpp
+
+CMakeFiles/solid_library.dir/FEM/sources/Quadrature/Quadrature.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/solid_library.dir/FEM/sources/Quadrature/Quadrature.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/FEM/sources/Quadrature/Quadrature.cpp > CMakeFiles/solid_library.dir/FEM/sources/Quadrature/Quadrature.cpp.i
+
+CMakeFiles/solid_library.dir/FEM/sources/Quadrature/Quadrature.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/solid_library.dir/FEM/sources/Quadrature/Quadrature.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/FEM/sources/Quadrature/Quadrature.cpp -o CMakeFiles/solid_library.dir/FEM/sources/Quadrature/Quadrature.cpp.s
+
 # Object files for target solid_library
 solid_library_OBJECTS = \
+"CMakeFiles/solid_library.dir/FEM/sources/Node.cpp.o" \
+"CMakeFiles/solid_library.dir/FEM/sources/ShapeFunction.cpp.o" \
+"CMakeFiles/solid_library.dir/FEM/sources/Elements/Element.cpp.o" \
+"CMakeFiles/solid_library.dir/FEM/sources/Elements/Truss.cpp.o" \
 "CMakeFiles/solid_library.dir/mesh_interface/sources/BoundaryConditions.cpp.o" \
 "CMakeFiles/solid_library.dir/mesh_interface/sources/Circle.cpp.o" \
 "CMakeFiles/solid_library.dir/mesh_interface/sources/Geometry.cpp.o" \
@@ -235,11 +351,19 @@ solid_library_OBJECTS = \
 "CMakeFiles/solid_library.dir/mesh_interface/sources/Point.cpp.o" \
 "CMakeFiles/solid_library.dir/mesh_interface/sources/Surface.cpp.o" \
 "CMakeFiles/solid_library.dir/mesh_interface/sources/SurfaceLoop.cpp.o" \
-"CMakeFiles/solid_library.dir/mesh_interface/sources/Volume.cpp.o"
+"CMakeFiles/solid_library.dir/mesh_interface/sources/Volume.cpp.o" \
+"CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadLine.cpp.o" \
+"CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadTetrahedron.cpp.o" \
+"CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadTriangle.cpp.o" \
+"CMakeFiles/solid_library.dir/FEM/sources/Quadrature/Quadrature.cpp.o"
 
 # External object files for target solid_library
 solid_library_EXTERNAL_OBJECTS =
 
+libsolid_library.a: CMakeFiles/solid_library.dir/FEM/sources/Node.cpp.o
+libsolid_library.a: CMakeFiles/solid_library.dir/FEM/sources/ShapeFunction.cpp.o
+libsolid_library.a: CMakeFiles/solid_library.dir/FEM/sources/Elements/Element.cpp.o
+libsolid_library.a: CMakeFiles/solid_library.dir/FEM/sources/Elements/Truss.cpp.o
 libsolid_library.a: CMakeFiles/solid_library.dir/mesh_interface/sources/BoundaryConditions.cpp.o
 libsolid_library.a: CMakeFiles/solid_library.dir/mesh_interface/sources/Circle.cpp.o
 libsolid_library.a: CMakeFiles/solid_library.dir/mesh_interface/sources/Geometry.cpp.o
@@ -251,9 +375,13 @@ libsolid_library.a: CMakeFiles/solid_library.dir/mesh_interface/sources/Point.cp
 libsolid_library.a: CMakeFiles/solid_library.dir/mesh_interface/sources/Surface.cpp.o
 libsolid_library.a: CMakeFiles/solid_library.dir/mesh_interface/sources/SurfaceLoop.cpp.o
 libsolid_library.a: CMakeFiles/solid_library.dir/mesh_interface/sources/Volume.cpp.o
+libsolid_library.a: CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadLine.cpp.o
+libsolid_library.a: CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadTetrahedron.cpp.o
+libsolid_library.a: CMakeFiles/solid_library.dir/FEM/sources/Quadrature/QuadTriangle.cpp.o
+libsolid_library.a: CMakeFiles/solid_library.dir/FEM/sources/Quadrature/Quadrature.cpp.o
 libsolid_library.a: CMakeFiles/solid_library.dir/build.make
 libsolid_library.a: CMakeFiles/solid_library.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX static library libsolid_library.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX static library libsolid_library.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/solid_library.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/solid_library.dir/link.txt --verbose=$(VERBOSE)
 
