@@ -2,7 +2,7 @@
 EXAMPLE 01 - UNDERSTANDING HOW .GEO FILE IS GENERATED AND .MSH FILE IS OBTAINED
              THIS EXAMPLE TREATS A SQUARE WITHIN A HOLE
 */
-#include "../mesh_interface/headers/Geometry.h" // Update the include path to the correct location of the header file
+#include "mesh_interface/headers/Geometry.h" // Update the include path to the correct location of the header file
 
 std::string projectName = "exemplo1";
 Geometry *ex01 = new Geometry(projectName);
