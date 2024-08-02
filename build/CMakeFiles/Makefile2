@@ -244,12 +244,12 @@ mesh_interface/sources/clean:
 CMakeFiles/solid_library.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/solid_library.dir/build.make CMakeFiles/solid_library.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/solid_library.dir/build.make CMakeFiles/solid_library.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 "Built target solid_library"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14 "Built target solid_library"
 .PHONY : CMakeFiles/solid_library.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/solid_library.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/solid_library.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles 0
 .PHONY : CMakeFiles/solid_library.dir/rule
@@ -275,7 +275,7 @@ CMakeFiles/s.dir/all: CMakeFiles/solid_library.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/s.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/s.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build/CMakeFiles 0
 .PHONY : CMakeFiles/s.dir/rule

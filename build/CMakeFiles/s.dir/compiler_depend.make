@@ -39,6 +39,7 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -140,8 +141,11 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/bits/algorithmfwd.h \
   /usr/include/c++/11/initializer_list \
@@ -166,6 +170,8 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -210,10 +216,10 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
   ../mesh_interface/headers/Circle.h \
   ../mesh_interface/headers/PlaneSurface.h \
   ../mesh_interface/headers/BoundaryCondition.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/hdf5.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5public.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5pubconf.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5version.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/hdf5.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5public.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5pubconf.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5version.h \
   /usr/include/c++/11/cinttypes \
   /usr/include/inttypes.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
@@ -229,65 +235,65 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
   /home/deborah/mpich/include/mpi.h \
   /home/deborah/mpich/include/mpio.h \
   /home/deborah/mpich/include/mpi.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5api_adpt.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5Apublic.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5Ipublic.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5Opublic.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5Tpublic.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5ACpublic.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5Cpublic.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5Dpublic.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5Epublic.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5Epubgen.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5ESpublic.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5Fpublic.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5FDpublic.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5Gpublic.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5Lpublic.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5Mpublic.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5VLpublic.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5VLconnector.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5Rpublic.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5MMpublic.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5Ppublic.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5Spublic.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5Zpublic.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5PLpublic.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5ESdevelop.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5FDdevelop.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5Idevelop.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5Ldevelop.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5Tdevelop.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5TSdevelop.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5Zdevelop.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5VLconnector_passthru.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5VLnative.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5FDcore.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5FDdirect.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5FDfamily.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5FDhdfs.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5FDlog.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5FDmirror.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5FDmpi.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5FDmpio.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5FDmulti.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5FDonion.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5FDros3.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5FDsec2.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5FDsplitter.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5FDstdio.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5FDsubfiling.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5FDioc.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/H5VLpassthru.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5api_adpt.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5Apublic.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5Ipublic.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5Opublic.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5Tpublic.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5ACpublic.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5Cpublic.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5Dpublic.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5Epublic.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5Epubgen.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5ESpublic.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5Fpublic.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5FDpublic.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5Gpublic.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5Lpublic.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5Mpublic.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5VLpublic.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5VLconnector.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5Rpublic.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5MMpublic.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5Ppublic.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5Spublic.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5Zpublic.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5PLpublic.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5ESdevelop.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5FDdevelop.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5Idevelop.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5Ldevelop.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5Tdevelop.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5TSdevelop.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5Zdevelop.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5VLconnector_passthru.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5VLnative.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5FDcore.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5FDdirect.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5FDfamily.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5FDhdfs.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5FDlog.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5FDmirror.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5FDmpi.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5FDmpio.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5FDmulti.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5FDonion.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5FDros3.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5FDsec2.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5FDsplitter.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5FDstdio.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5FDsubfiling.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5FDioc.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/H5VLpassthru.h \
   /home/deborah/petsc/include/petscsnes.h \
   /home/deborah/petsc/include/petscksp.h \
   /home/deborah/petsc/include/petscpc.h \
   /home/deborah/petsc/include/petscmat.h \
   /home/deborah/petsc/include/petscvec.h \
   /home/deborah/petsc/include/petscsys.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/petscconf.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/petscconf_poison.h \
-  /home/deborah/petsc/arch-linux2-c-debug/include/petscfix.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/petscconf.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/petscconf_poison.h \
+  /home/deborah/petsc/arch-linux2-c-opt/include/petscfix.h \
   /home/deborah/petsc/include/petscmacros.h \
   /home/deborah/petsc/include/petscversion.h \
   /usr/include/c++/11/cstddef \
@@ -333,6 +339,8 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
   /home/deborah/petsc/include/petscstring.h \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /home/deborah/petsc/include/petsclogtypes.h \
   /home/deborah/petsc/include/petsclogdeprecated.h \
   /usr/include/c++/11/stdlib.h \
@@ -502,6 +510,7 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   /usr/include/syscall.h \
@@ -602,11 +611,13 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h:
 
-/usr/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h:
+/usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h:
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h:
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h:
+
+/usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h:
 
 /usr/include/eigen3/Eigen/src/Geometry/Scaling.h:
 
@@ -638,49 +649,47 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/eigen3/Eigen/QR:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5Tdevelop.h:
+/usr/include/eigen3/Eigen/src/Cholesky/LDLT.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5Ldevelop.h:
+/usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h:
 
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+/usr/include/eigen3/Eigen/src/LU/arch/InverseSize4.h:
 
-/usr/include/wctype.h:
+/usr/include/eigen3/Eigen/src/LU/Determinant.h:
 
-/usr/include/sched.h:
+/usr/include/eigen3/Eigen/src/misc/Image.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5MMpublic.h:
+/usr/include/eigen3/Eigen/src/misc/Kernel.h:
 
-/usr/include/c++/11/unordered_map:
+/usr/include/eigen3/Eigen/LU:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5Rpublic.h:
+/usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5pubconf.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5Ppublic.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5VLpublic.h:
+/usr/include/eigen3/Eigen/src/Core/ConditionEstimator.h:
 
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5Gpublic.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5Gpublic.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5FDpublic.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5ESpublic.h:
+/usr/include/c++/11/typeinfo:
 
-/usr/include/eigen3/Eigen/src/Core/util/Memory.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5Cpublic.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5Epubgen.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5Spublic.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5Dpublic.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5Opublic.h:
 
-/usr/include/c++/11/tr1/poly_laguerre.tcc:
+/usr/include/c++/11/ext/type_traits.h:
 
-/usr/include/c++/11/bits/std_mutex.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5Ipublic.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5Ipublic.h:
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5Lpublic.h:
 
-/usr/include/c++/11/bits/stl_pair.h:
-
-/home/deborah/petsc/include/petscsystypes.h:
+/home/deborah/petsc/include/petsclogdeprecated.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h:
 
@@ -698,25 +707,23 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/inttypes.h:
 
+/home/deborah/petsc/arch-linux2-c-opt/include/H5pubconf.h:
+
+/home/deborah/petsc/arch-linux2-c-opt/include/H5api_adpt.h:
+
+/usr/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h:
+
 ../mesh_interface/headers/Circle.h:
 
 /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h:
 
 ../enumclass.hpp:
 
-/usr/include/eigen3/Eigen/src/misc/Kernel.h:
-
 ../mesh_interface/headers/Material.h:
 
 ../mesh_interface/headers/Line.h:
 
 /usr/include/x86_64-linux-gnu/sys/syscall.h:
-
-/usr/include/eigen3/Eigen/src/Cholesky/LDLT.h:
-
-/home/deborah/petsc/arch-linux2-c-debug/include/H5Cpublic.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
 
 /usr/include/c++/11/bits/vector.tcc:
 
@@ -727,8 +734,6 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
 /usr/include/eigen3/Eigen/src/Core/util/BlasUtil.h:
-
-/home/deborah/petsc/arch-linux2-c-debug/include/H5Mpublic.h:
 
 /usr/include/c++/11/bits/stl_uninitialized.h:
 
@@ -742,6 +747,12 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/eigen3/Eigen/src/Core/Diagonal.h:
 
+/home/deborah/petsc/arch-linux2-c-opt/include/H5Zpublic.h:
+
+/usr/include/c++/11/cerrno:
+
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+
 /usr/include/c++/11/istream:
 
 /usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:
@@ -750,25 +761,33 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/cinttypes:
 
-/usr/include/c++/11/bits/enable_special_members.h:
+/usr/include/c++/11/bits/basic_ios.tcc:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+/usr/include/c++/11/bits/enable_special_members.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
+/home/deborah/petsc/arch-linux2-c-opt/include/H5VLconnector.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/locale.h:
+
 /usr/include/c++/11/bits/streambuf_iterator.h:
 
-/usr/include/c++/11/cwctype:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5Epublic.h:
 
-/usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5VLpublic.h:
 
-/usr/include/eigen3/Eigen/src/LU/arch/InverseSize4.h:
-
-/home/deborah/petsc/arch-linux2-c-debug/include/H5ESdevelop.h:
-
-/usr/include/eigen3/Eigen/src/Core/Redux.h:
+/usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h:
 
 /usr/include/c++/11/bits/locale_facets.h:
+
+/home/deborah/petsc/arch-linux2-c-opt/include/H5Zdevelop.h:
+
+/usr/include/eigen3/Eigen/src/Core/Swap.h:
+
+/usr/include/c++/11/bits/basic_ios.h:
 
 /usr/include/eigen3/Eigen/src/Cholesky/LLT.h:
 
@@ -790,15 +809,19 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/bits/basic_string.tcc:
 
-/usr/include/eigen3/Eigen/src/Core/StableNorm.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5FDsubfiling.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
-
-/home/deborah/petsc/include/petsclogdeprecated.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5Epubgen.h:
 
 /usr/include/asm-generic/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
+
+/usr/include/wctype.h:
+
+/usr/include/sched.h:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
@@ -806,41 +829,37 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /home/deborah/petsc/include/petscoptions.h:
 
-/usr/include/eigen3/Eigen/src/Core/Transpositions.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
-/usr/include/eigen3/Eigen/LU:
-
-/usr/include/c++/11/cerrno:
-
-/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
-
-/usr/include/c++/11/bits/basic_ios.h:
-
-/usr/include/eigen3/Eigen/src/Core/Swap.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5FDros3.h:
 
 /usr/include/stdio.h:
+
+/home/deborah/mpich/include/mpi.h:
 
 /usr/include/eigen3/Eigen/src/Geometry/arch/Geometry_SIMD.h:
 
 /usr/include/c++/11/cstdio:
 
-/usr/include/c++/11/bits/max_size_type.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5public.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5PLpublic.h:
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/include/c++/11/bits/max_size_type.h:
 
 /usr/include/c++/11/bits/functional_hash.h:
 
 /usr/include/c++/11/string_view:
 
-/usr/include/c++/11/bits/basic_ios.tcc:
+/usr/include/eigen3/Eigen/src/Jacobi/Jacobi.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/petscconf.h:
+/usr/include/eigen3/Eigen/src/LU/PartialPivLU.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h:
 
 /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
-
-/usr/include/eigen3/Eigen/src/LU/Determinant.h:
 
 /usr/include/errno.h:
 
@@ -850,10 +869,6 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/bits/std_abs.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/usr/include/c++/11/bits/range_access.h:
-
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
 /usr/include/c++/11/iterator:
@@ -862,15 +877,27 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/iosfwd:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5FDhdfs.h:
-
 /usr/include/c++/11/pstl/execution_defs.h:
 
+/usr/include/c++/11/cwctype:
+
 /usr/include/alloca.h:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
+/home/deborah/petsc/include/petsccxxcomplexfix.h:
+
+/usr/include/c++/11/cwchar:
+
+/usr/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
 /usr/include/stdint.h:
+
+/home/deborah/petsc/include/petscversion.h:
+
+../mesh_interface/headers/SurfaceLoop.h:
 
 /usr/include/c++/11/bits/ptr_traits.h:
 
@@ -886,15 +913,11 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/stdlib.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5Ppublic.h:
-
 /usr/include/c++/11/bits/stl_algo.h:
 
-/usr/include/c++/11/tr1/modified_bessel_func.tcc:
-
-/usr/include/eigen3/Eigen/src/Core/NestByValue.h:
-
 /usr/include/eigen3/Eigen/src/Core/BooleanRedux.h:
+
+/home/deborah/petsc/arch-linux2-c-opt/include/H5Dpublic.h:
 
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
@@ -902,11 +925,7 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/bits/concept_check.h:
 
-/home/deborah/mpich/include/mpi.h:
-
-/home/deborah/petsc/arch-linux2-c-debug/include/H5Spublic.h:
-
-/usr/include/c++/11/typeinfo:
+/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
 
 /usr/include/c++/11/bits/exception_defines.h:
 
@@ -914,27 +933,17 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5FDlog.h:
-
 ../mesh_interface/headers/LineLoop.h:
 
 /usr/include/c++/11/bits/allocator.h:
 
 /usr/include/c++/11/cmath:
 
+/home/deborah/petsc/arch-linux2-c-opt/include/H5FDmirror.h:
+
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
-/usr/include/c++/11/bits/basic_string.h:
-
-/usr/include/c++/11/cstdlib:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/c++/11/bits/stl_iterator.h:
-
-/home/deborah/petsc/arch-linux2-c-debug/include/H5TSdevelop.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+/usr/include/c++/11/bits/stl_tempbuf.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
@@ -946,23 +955,23 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/bits/nested_exception.h:
 
-/usr/include/c++/11/bits/stl_tempbuf.h:
-
-/home/deborah/petsc/arch-linux2-c-debug/include/petscconf_poison.h:
-
 /usr/include/c++/11/bits/stl_algobase.h:
 
 /usr/include/unistd.h:
 
-/home/deborah/petsc/include/petsccxxcomplexfix.h:
-
-/usr/include/c++/11/cwchar:
-
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
-/usr/include/x86_64-linux-gnu/asm/errno.h:
+/usr/include/c++/11/concepts:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+/usr/include/c++/11/bits/stl_pair.h:
+
+/home/deborah/petsc/include/petscsystypes.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/eigen3/Eigen/src/Core/DiagonalProduct.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/c++/11/ostream:
 
@@ -980,6 +989,8 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
+/home/deborah/petsc/arch-linux2-c-opt/include/H5VLpassthru.h:
+
 /usr/include/c++/11/exception:
 
 /usr/include/c++/11/debug/assertions.h:
@@ -987,6 +998,12 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
 /usr/include/eigen3/Eigen/src/Core/IO.h:
+
+/usr/include/features-time64.h:
+
+/usr/include/c++/11/system_error:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
@@ -1008,13 +1025,11 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/bits/cxxabi_init_exception.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5Idevelop.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5FDcore.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/wchar.h:
-
-/home/deborah/petsc/arch-linux2-c-debug/include/H5Tpublic.h:
 
 /usr/include/eigen3/Eigen/src/Core/PlainObjectBase.h:
 
@@ -1028,17 +1043,23 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/ext/numeric_traits.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5Fpublic.h:
-
 /usr/include/c++/11/bits/iterator_concepts.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5public.h:
+/usr/include/x86_64-linux-gnu/bits/select.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5Apublic.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5Apublic.h:
 
-/usr/include/c++/11/tr1/special_function_util.h:
+/usr/include/x86_64-linux-gnu/bits/time.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5VLconnector.h:
+/usr/include/eigen3/Eigen/src/Core/util/IntegralConstant.h:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/c++/11/iostream:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/c++/11/bits/node_handle.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
@@ -1050,10 +1071,6 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/bits/locale_classes.h:
 
-/usr/include/eigen3/Eigen/src/Core/Fuzzy.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
@@ -1064,11 +1081,11 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/tr1/gamma.tcc:
 
-/usr/include/c++/11/ext/type_traits.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5Rpublic.h:
 
-/usr/include/c++/11/concepts:
+/usr/include/c++/11/tr1/poly_laguerre.tcc:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5FDdevelop.h:
+/usr/include/c++/11/bits/std_mutex.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/mm_malloc.h:
 
@@ -1080,27 +1097,19 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/eigen3/Eigen/src/Householder/BlockHouseholder.h:
 
+/home/deborah/petsc/arch-linux2-c-opt/include/H5PLpublic.h:
+
 /usr/include/eigen3/Eigen/src/Core/functors/TernaryFunctors.h:
 
 /usr/include/c++/11/bits/stringfwd.h:
 
 /usr/include/c++/11/bits/string_view.tcc:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/hdf5.h:
-
-/home/deborah/petsc/arch-linux2-c-debug/include/H5Opublic.h:
-
 /usr/include/assert.h:
 
 /usr/include/c++/11/bits/hash_bytes.h:
 
 /usr/include/c++/11/bits/move.h:
-
-/home/deborah/petsc/arch-linux2-c-debug/include/H5FDonion.h:
-
-/usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h:
-
-/home/deborah/petsc/arch-linux2-c-debug/include/H5Zpublic.h:
 
 ../main.cpp:
 
@@ -1118,6 +1127,8 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
+/home/deborah/petsc/arch-linux2-c-opt/include/H5ACpublic.h:
+
 /usr/include/c++/11/type_traits:
 
 /usr/include/eigen3/Eigen/src/Core/CommaInitializer.h:
@@ -1128,7 +1139,13 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/eigen3/Eigen/src/Core/arch/SSE/Complex.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5api_adpt.h:
+/usr/include/c++/11/backward/binders.h:
+
+/home/deborah/petsc/arch-linux2-c-opt/include/H5ESpublic.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
+
+/home/deborah/petsc/include/petscmatcoarsen.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
 
@@ -1142,13 +1159,19 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/bits/postypes.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
+../mesh_interface/headers/PlaneSurface.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
-/usr/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h:
+/usr/include/c++/11/cstdlib:
 
-/usr/include/c++/11/bits/ostream.tcc:
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
 /usr/include/eigen3/Eigen/src/Core/Array.h:
 
@@ -1164,17 +1187,23 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/bits/cpp_type_traits.h:
 
-/usr/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h:
-
-/home/deborah/petsc/arch-linux2-c-debug/include/H5FDstdio.h:
-
 /usr/include/ctype.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
+
+/home/deborah/petsc/arch-linux2-c-opt/include/H5MMpublic.h:
 
 /usr/include/c++/11/new:
 
 /usr/include/c++/11/bits/sstream.tcc:
 
 /usr/include/c++/11/climits:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/c++/11/bits/stl_iterator.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
 /usr/include/eigen3/Eigen/Core:
 
@@ -1188,8 +1217,6 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5Lpublic.h:
-
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
 /usr/include/c++/11/ext/alloc_traits.h:
@@ -1198,15 +1225,19 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixMatrix.h:
 
-/usr/include/eigen3/Eigen/src/Jacobi/Jacobi.h:
+/usr/include/c++/11/bits/range_access.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
-/usr/include/eigen3/Eigen/src/LU/PartialPivLU.h:
+/usr/include/eigen3/Eigen/src/Core/Redux.h:
 
 /usr/include/c++/11/cctype:
 
+/home/deborah/petsc/arch-linux2-c-opt/include/petscconf.h:
+
 /usr/include/c++/11/bits/locale_facets.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
 
 /usr/include/x86_64-linux-gnu/asm/unistd.h:
 
@@ -1214,23 +1245,21 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/bits/localefwd.h:
 
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
 /usr/include/c++/11/numbers:
 
 /usr/include/locale.h:
 
 /home/deborah/petsc/include/petscis.h:
 
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/locale.h:
-
 /usr/include/eigen3/Eigen/src/Geometry/Transform.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
 /usr/include/eigen3/Eigen/src/plugins/IndexedViewMethods.h:
-
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
 
 /usr/include/c++/11/bits/ios_base.h:
 
@@ -1242,19 +1271,11 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/eigen3/Eigen/src/Core/StlIterators.h:
 
-/usr/include/eigen3/Eigen/src/misc/Image.h:
-
 /usr/include/eigen3/Eigen/src/SVD/SVDBase.h:
 
 /usr/include/eigen3/Eigen/src/Core/DenseBase.h:
 
 /usr/include/c++/11/ext/atomicity.h:
-
-/usr/include/x86_64-linux-gnu/bits/time.h:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/eigen3/Eigen/src/Core/util/IntegralConstant.h:
 
 /usr/include/eigen3/Eigen/src/SVD/JacobiSVD.h:
 
@@ -1266,6 +1287,8 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
+/home/deborah/petsc/arch-linux2-c-opt/include/H5version.h:
+
 /usr/include/c++/11/bits/char_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
@@ -1274,9 +1297,9 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
-/usr/include/c++/11/bits/charconv.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/c++/11/bits/charconv.h:
 
 /usr/include/c++/11/bits/exception_ptr.h:
 
@@ -1284,69 +1307,83 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5Epublic.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5FDstdio.h:
 
 /usr/include/eigen3/Eigen/src/Core/DiagonalMatrix.h:
 
-/usr/include/eigen3/Eigen/src/Core/DiagonalProduct.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5ESdevelop.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5version.h:
+/usr/include/eigen3/Eigen/src/Core/Map.h:
 
-/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5FDdevelop.h:
 
-../mesh_interface/headers/PlaneSurface.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5Ldevelop.h:
 
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+/usr/include/strings.h:
 
-/usr/include/c++/11/iostream:
+/usr/include/eigen3/Eigen/src/Core/StableNorm.h:
 
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5Tdevelop.h:
 
-/usr/include/c++/11/bits/node_handle.h:
+/usr/include/c++/11/bits/stl_iterator_base_types.h:
 
-/usr/include/c++/11/backward/binders.h:
+/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5Zdevelop.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5VLconnector_passthru.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5VLnative.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5VLnative.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5FDcore.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5FDdirect.h:
 
-/home/deborah/petsc/include/petsclog.h:
+/usr/include/eigen3/Eigen/src/Core/util/Memory.h:
 
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+/usr/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h:
 
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+/usr/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5FDdirect.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5FDhdfs.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5FDfamily.h:
+/usr/include/c++/11/compare:
 
-/usr/include/eigen3/Eigen/src/Core/Reshaped.h:
+/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5FDmirror.h:
+/usr/include/c++/11/bits/basic_string.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5FDmpio.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5FDlog.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5FDros3.h:
+/usr/include/eigen3/Eigen/src/Core/Transpositions.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5FDsec2.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5FDmpi.h:
 
-/usr/include/eigen3/Eigen/src/Core/Reverse.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5FDmpio.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5FDsplitter.h:
+/usr/include/eigen3/Eigen/src/Core/CoreIterators.h:
 
-/usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5FDmulti.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5FDsubfiling.h:
+../mesh_interface/headers/Volume.h:
 
-/usr/include/features-time64.h:
+/usr/include/eigen3/Eigen/src/Core/util/Meta.h:
 
-/usr/include/c++/11/system_error:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5FDonion.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/H5FDsplitter.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5VLpassthru.h:
+/usr/include/eigen3/Eigen/src/Core/ArithmeticSequence.h:
+
+/home/deborah/petsc/arch-linux2-c-opt/include/H5TSdevelop.h:
+
+/usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h:
+
+/home/deborah/petsc/arch-linux2-c-opt/include/H5FDsec2.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/home/deborah/petsc/arch-linux2-c-opt/include/H5FDioc.h:
+
+/home/deborah/petsc/arch-linux2-c-opt/include/H5Tpublic.h:
+
+/home/deborah/petsc/include/petscsftypes.h:
 
 /usr/include/eigen3/Eigen/src/Core/Product.h:
 
@@ -1356,15 +1393,13 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /home/deborah/petsc/include/petscksp.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
 /home/deborah/petsc/include/petscvec.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/petscfix.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/petscconf_poison.h:
 
-/usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:
-
-../mesh_interface/headers/SurfaceLoop.h:
-
-/home/deborah/petsc/include/petscversion.h:
+/home/deborah/petsc/arch-linux2-c-opt/include/petscfix.h:
 
 /usr/include/eigen3/Eigen/src/Geometry/Hyperplane.h:
 
@@ -1388,9 +1423,9 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5ACpublic.h:
-
 /usr/include/c++/11/limits:
+
+/usr/include/c++/11/tr1/special_function_util.h:
 
 /usr/include/c++/11/tr1/bessel_function.tcc:
 
@@ -1407,6 +1442,10 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/11/tr1/exp_integral.tcc:
 
 /usr/include/c++/11/tr1/hypergeometric.tcc:
+
+/usr/include/eigen3/Eigen/src/Core/NestByValue.h:
+
+/usr/include/c++/11/tr1/modified_bessel_func.tcc:
 
 /usr/include/c++/11/tr1/poly_hermite.tcc:
 
@@ -1438,17 +1477,17 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/eigen3/Eigen/src/Core/arch/Default/TypeCasting.h:
 
+/home/deborah/petsc/include/petsclog.h:
+
 /home/deborah/petsc/include/petsctime.h:
 
 /home/deborah/petsc/include/petscbt.h:
 
 /usr/include/c++/11/cassert:
 
-/usr/include/eigen3/Eigen/src/Core/IndexedView.h:
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
 
-/home/deborah/petsc/include/petscstring.h:
-
-/usr/include/strings.h:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
 
 /usr/include/eigen3/Eigen/src/Geometry/RotationBase.h:
 
@@ -1460,8 +1499,6 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/eigen3/Eigen/src/Core/CwiseUnaryView.h:
 
-/home/deborah/petsc/include/petscsftypes.h:
-
 ../mesh_interface/headers/Surface.h:
 
 /home/deborah/petsc/include/petscsectiontypes.h:
@@ -1470,25 +1507,19 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /home/deborah/petsc/include/petscdevicetypes.h:
 
+/home/deborah/petsc/arch-linux2-c-opt/include/H5Idevelop.h:
+
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
 /usr/include/eigen3/Eigen/src/Core/ArrayWrapper.h:
 
 /usr/include/eigen3/Eigen/Jacobi:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5VLconnector_passthru.h:
-
 /home/deborah/petsc/include/petscviewer.h:
 
 /home/deborah/petsc/include/petscdrawtypes.h:
 
 /usr/include/eigen3/Eigen/src/Core/functors/StlFunctors.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
-
-/home/deborah/petsc/include/petscmatcoarsen.h:
-
-/home/deborah/petsc/arch-linux2-c-debug/include/H5FDioc.h:
 
 /home/deborah/petsc/include/petscfvtypes.h:
 
@@ -1499,8 +1530,6 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 /home/deborah/petsc/include/petscdmdatypes.h:
 
 /usr/include/eigen3/Eigen/src/Core/arch/SSE/MathFunctions.h:
-
-/home/deborah/petsc/arch-linux2-c-debug/include/H5FDmulti.h:
 
 /usr/include/c++/11/ext/new_allocator.h:
 
@@ -1516,17 +1545,19 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5FDmpi.h:
+/usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h:
+
+/usr/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h:
+
+/usr/include/c++/11/bits/fstream.tcc:
+
+/usr/include/c++/11/unordered_map:
 
 /usr/include/c++/11/bits/hashtable.h:
 
 /usr/include/c++/11/bits/hashtable_policy.h:
 
 /usr/include/c++/11/tuple:
-
-/usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h:
-
-/usr/include/c++/11/bits/uses_allocator.h:
 
 /usr/include/eigen3/Eigen/src/plugins/BlockMethods.h:
 
@@ -1549,6 +1580,8 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/11/bits/refwrap.h:
 
 /usr/include/eigen3/Eigen/Dense:
+
+/home/deborah/petsc/arch-linux2-c-opt/include/H5Fpublic.h:
 
 /usr/include/asm-generic/errno-base.h:
 
@@ -1582,9 +1615,9 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/eigen3/Eigen/src/Core/util/Constants.h:
 
-../mesh_interface/headers/Volume.h:
+/usr/include/c++/11/bits/ostream.tcc:
 
-/usr/include/eigen3/Eigen/src/Core/util/Meta.h:
+/usr/include/eigen3/Eigen/src/Core/util/ForwardDeclarations.h:
 
 /usr/include/eigen3/Eigen/src/Core/util/StaticAssert.h:
 
@@ -1610,6 +1643,8 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/bits/functexcept.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
+
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
 /usr/include/eigen3/Eigen/src/Core/arch/Default/Settings.h:
@@ -1620,7 +1655,13 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverMatrix.h:
 
-/usr/include/eigen3/Eigen/src/Core/arch/SSE/TypeCasting.h:
+/usr/include/eigen3/Eigen/src/Core/arch/Default/GenericPacketMathFunctionsFwd.h:
+
+/home/deborah/petsc/arch-linux2-c-opt/include/H5FDfamily.h:
+
+/home/deborah/petsc/include/petscstring.h:
+
+/usr/include/eigen3/Eigen/src/Core/IndexedView.h:
 
 /usr/include/eigen3/Eigen/src/Core/arch/SSE/PacketMath.h:
 
@@ -1638,15 +1679,9 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/eigen3/Eigen/src/Core/util/ReshapedHelper.h:
 
-/usr/include/eigen3/Eigen/src/Core/ArithmeticSequence.h:
-
-/usr/include/eigen3/Eigen/src/Core/GlobalFunctions.h:
-
-/usr/include/c++/11/bits/stl_iterator_base_types.h:
-
-/usr/include/eigen3/Eigen/src/Core/DenseCoeffsBase.h:
-
 /usr/include/eigen3/Eigen/src/plugins/ReshapedMethods.h:
+
+/home/deborah/petsc/arch-linux2-c-opt/include/hdf5.h:
 
 /usr/include/eigen3/Eigen/src/Core/Matrix.h:
 
@@ -1657,16 +1692,6 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 /usr/include/eigen3/Eigen/src/Core/EigenBase.h:
 
 /usr/include/eigen3/Eigen/src/Core/CoreEvaluators.h:
-
-/usr/include/c++/11/compare:
-
-/usr/include/eigen3/Eigen/src/Core/ArrayBase.h:
-
-/usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h:
-
-/usr/include/c++/11/bits/fstream.tcc:
-
-/usr/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h:
 
 /usr/include/eigen3/Eigen/src/SVD/BDCSVD.h:
 
@@ -1696,23 +1721,23 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/eigen3/Eigen/src/Core/Stride.h:
 
-/usr/include/eigen3/Eigen/src/Core/Map.h:
-
-/usr/include/eigen3/Eigen/src/Core/ConditionEstimator.h:
-
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
 
 /usr/include/eigen3/Eigen/src/Core/Ref.h:
 
 /usr/include/eigen3/Eigen/src/Core/Block.h:
 
+/usr/include/eigen3/Eigen/src/Core/Reshaped.h:
+
 /usr/include/eigen3/Eigen/src/Core/Transpose.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/eigen3/Eigen/src/Core/Fuzzy.h:
 
 /usr/include/eigen3/Eigen/src/Core/GeneralProduct.h:
 
 /usr/include/eigen3/Eigen/src/Core/Inverse.h:
-
-/usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h:
 
 /usr/include/eigen3/Eigen/src/Core/TriangularMatrix.h:
 
@@ -1730,7 +1755,11 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/bits/atomic_wait.h:
 
+/home/deborah/petsc/arch-linux2-c-opt/include/H5Mpublic.h:
+
 /usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd.h:
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
 
@@ -1742,25 +1771,23 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrix.h:
 
+/usr/include/c++/11/bits/uses_allocator.h:
+
+/usr/include/eigen3/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h:
+
 /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h:
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h:
 
 /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h:
 
-/usr/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h:
-
 /usr/include/eigen3/Eigen/src/misc/RealSvd2x2.h:
 
 /usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:
 
-/home/deborah/petsc/arch-linux2-c-debug/include/H5FDpublic.h:
-
 /usr/include/stdc-predef.h:
 
 /usr/include/eigen3/Eigen/src/Core/products/TriangularSolverVector.h:
-
-/usr/include/eigen3/Eigen/src/Core/CoreIterators.h:
 
 /usr/include/eigen3/Eigen/src/Core/Select.h:
 
@@ -1776,4 +1803,4 @@ CMakeFiles/s.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/eigen3/Eigen/src/Core/Replicate.h:
 
-/usr/include/eigen3/Eigen/src/Core/util/ReenableStupidWarnings.h:
+/usr/include/eigen3/Eigen/src/Core/Reverse.h:

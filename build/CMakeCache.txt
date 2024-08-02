@@ -20,14 +20,15 @@ CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
 
-//No help, variable specified on the command line.
-CMAKE_BUILD_TYPE:STRING=Debug
+//Choose the type of build, options are: None Debug Release RelWithDebInfo
+// MinSizeRel ...
+CMAKE_BUILD_TYPE:STRING=Release
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
-//No help, variable specified on the command line.
-CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/g++
+//CXX compiler
+CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -52,8 +53,8 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 //Flags used by the CXX compiler during RELWITHDEBINFO builds.
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
-//No help, variable specified on the command line.
-CMAKE_C_COMPILER:FILEPATH=/usr/bin/gcc
+//C compiler
+CMAKE_C_COMPILER:FILEPATH=/usr/bin/cc
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -96,8 +97,8 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
 //Flags used by the linker during RELWITHDEBINFO builds.
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
-//No help, variable specified on the command line.
-CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE
+//Enable/Disable output of compile commands during generation.
+CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
 
 //Install path prefix, prepended onto install directories.
 CMAKE_INSTALL_PREFIX:PATH=/usr/local
@@ -337,7 +338,7 @@ MPI_mpicxx_LIBRARY:FILEPATH=/home/deborah/mpich/lib/libmpicxx.so
 M_LIBRARY:FILEPATH=/usr/lib/x86_64-linux-gnu/libm.so
 
 //PETSc build architecture
-PETSC_ARCH:STRING=arch-linux2-c-debug
+PETSC_ARCH:STRING=arch-linux2-c-opt
 
 //PETSc compiler
 PETSC_COMPILER:FILEPATH=/home/deborah/mpich/bin/mpicc
@@ -359,7 +360,7 @@ PETSC_DIR:PATH=/home/deborah/petsc
 PETSC_EXECUTABLE_RUNS:BOOL=YES
 
 //PETSc include path
-PETSC_INCLUDES:STRING=/home/deborah/petsc/include;/home/deborah/petsc/arch-linux2-c-debug/include;/home/deborah/mpich/include
+PETSC_INCLUDES:STRING=/home/deborah/petsc/include;/home/deborah/petsc/arch-linux2-c-opt/include;/home/deborah/mpich/include
 
 //Path to a file.
 PETSC_INCLUDE_CONF:PATH=/home/deborah/petsc/arch-linux2-c-debug/include
@@ -368,7 +369,7 @@ PETSC_INCLUDE_CONF:PATH=/home/deborah/petsc/arch-linux2-c-debug/include
 PETSC_INCLUDE_DIR:PATH=/home/deborah/petsc/include
 
 //PETSc libraries
-PETSC_LIBRARIES:STRING=/home/deborah/petsc/arch-linux2-c-debug/lib/libpetsc.so
+PETSC_LIBRARIES:STRING=/home/deborah/petsc/arch-linux2-c-opt/lib/libpetsc.so
 
 //Executable for running PETSc MPI programs
 PETSC_MPIEXEC:FILEPATH=/home/deborah/mpich/bin/mpiexec
@@ -397,6 +398,8 @@ s_SOURCE_DIR:STATIC=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp
 CMAKE_ADDR2LINE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
+//MODIFIED property for variable: CMAKE_BUILD_TYPE
+CMAKE_BUILD_TYPE-MODIFIED:INTERNAL=ON
 //This is the directory where this CMakeCache.txt was created
 CMAKE_CACHEFILE_DIR:INTERNAL=/home/deborah/Desktop/cppCodes/PhaseField/02PhaseFieldCpp/build
 //Major version of cmake used to create the current loaded cache
@@ -549,7 +552,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_MPI_C:INTERNAL=[/home/deborah/mpich/lib/libmpi.so][
 //Details about finding MPI_CXX
 FIND_PACKAGE_MESSAGE_DETAILS_MPI_CXX:INTERNAL=[/home/deborah/mpich/lib/libmpicxx.so][/home/deborah/mpich/lib/libmpi.so][mpicxx;mpi][/home/deborah/mpich/include][TRUE][v3.1()]
 //Details about finding PETSc
-FIND_PACKAGE_MESSAGE_DETAILS_PETSc:INTERNAL=[/home/deborah/petsc/include;/home/deborah/petsc/arch-linux2-c-debug/include;/home/deborah/mpich/include][/home/deborah/petsc/arch-linux2-c-debug/lib/libpetsc.so][YES][v3.21.3()]
+FIND_PACKAGE_MESSAGE_DETAILS_PETSc:INTERNAL=[/home/deborah/petsc/include;/home/deborah/petsc/arch-linux2-c-opt/include;/home/deborah/mpich/include][/home/deborah/petsc/arch-linux2-c-opt/lib/libpetsc.so][YES][v3.21.3()]
 //ADVANCED property for variable: HDF5_C_COMPILER_EXECUTABLE
 HDF5_C_COMPILER_EXECUTABLE-ADVANCED:INTERNAL=1
 //Result of TRY_COMPILE
@@ -634,16 +637,28 @@ MULTIPASS_TEST_2_petsc_works_allincludes:INTERNAL=1
 MULTIPASS_TEST_2_petsc_works_allincludes_COMPILED:INTERNAL=TRUE
 //Result of TRY_RUN
 MULTIPASS_TEST_2_petsc_works_allincludes_EXITCODE:INTERNAL=0
+//Test MULTIPASS_TEST_3_petsc_works_minimal
+MULTIPASS_TEST_3_petsc_works_minimal:INTERNAL=
+//Result of TRY_COMPILE
+MULTIPASS_TEST_3_petsc_works_minimal_COMPILED:INTERNAL=FALSE
+//Test MULTIPASS_TEST_4_petsc_works_allincludes
+MULTIPASS_TEST_4_petsc_works_allincludes:INTERNAL=1
+//Result of TRY_COMPILE
+MULTIPASS_TEST_4_petsc_works_allincludes_COMPILED:INTERNAL=TRUE
+//Result of TRY_RUN
+MULTIPASS_TEST_4_petsc_works_allincludes_EXITCODE:INTERNAL=0
 //Unique test ID
-MULTIPASS_TEST_COUNT:INTERNAL=2
+MULTIPASS_TEST_COUNT:INTERNAL=4
 //ADVANCED property for variable: M_LIBRARY
 M_LIBRARY-ADVANCED:INTERNAL=1
 //Stored state for PETSc.
-PACKAGE_MULTIPASS_PETSC_ARCH:INTERNAL=arch-linux2-c-debug
+PACKAGE_MULTIPASS_PETSC_ARCH:INTERNAL=arch-linux2-c-opt
 //Stored state for PETSc.
 PACKAGE_MULTIPASS_PETSC_DIR:INTERNAL=/home/deborah/petsc
 //Private
 PACKAGE_MULTIPASS__CALLED:INTERNAL=YES
+//MODIFIED property for variable: PETSC_ARCH
+PETSC_ARCH-MODIFIED:INTERNAL=ON
 //ADVANCED property for variable: PETSC_COMPILER
 PETSC_COMPILER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PETSC_DEFINITIONS
@@ -658,8 +673,12 @@ PETSC_INCLUDE_CONF-ADVANCED:INTERNAL=1
 PETSC_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PETSC_LIBRARIES
 PETSC_LIBRARIES-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PETSC_LIBRARY_SINGLE
+PETSC_LIBRARY_SINGLE-ADVANCED:INTERNAL=1
 //Cleared
-PETSC_LIBRARY_SINGLE:INTERNAL=/home/deborah/petsc/arch-linux2-c-debug/lib/libpetsc.so
+PETSC_LIBRARY_SINGLE:INTERNAL=/home/deborah/petsc/arch-linux2-c-opt/lib/libpetsc.so
+//ADVANCED property for variable: PETSC_LIBRARY_VEC
+PETSC_LIBRARY_VEC-ADVANCED:INTERNAL=1
 //Cleared
 PETSC_LIBRARY_VEC:INTERNAL=NOTFOUND
 //ADVANCED property for variable: PETSC_MPIEXEC
